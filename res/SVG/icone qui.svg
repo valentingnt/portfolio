@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="56" viewBox="0 0 52 56">
+  <g id="icone_qui" data-name="icone qui" transform="translate(-28 -244)">
+    <path id="Icon_material-person-outline" data-name="Icon material-person-outline" d="M28.833,13.2a5.381,5.381,0,1,1-5.381,5.381A5.381,5.381,0,0,1,28.833,13.2m0,23.063c7.611,0,15.631,3.741,15.631,5.381v2.819H13.2V41.646c0-1.64,8.021-5.381,15.631-5.381m0-27.931a10.25,10.25,0,1,0,10.25,10.25,10.247,10.247,0,0,0-10.25-10.25Zm0,23.063c-6.842,0-20.5,3.434-20.5,10.25v7.688h41V41.646C49.333,34.83,35.675,31.4,28.833,31.4Z" transform="translate(24.667 235.667)" fill="#fc0"/>
+    <text id="Qui_suis-je_" data-name="Qui suis-je ?" transform="translate(54 298)" fill="#303030" font-size="9" font-family="Quicksand-Medium, Quicksand" font-weight="500"><tspan x="-25.137" y="0">Qui suis-je ?</tspan></text>
+  </g>
+</svg>

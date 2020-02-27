@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "QuicksandR";
+  src: url(../res/font/Quicksand/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Rainmaker";
+  src: url(../res/font/Rainmaker/RainmakerScript-Bold.otf);
+}
+
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/*Style body*/
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0f0f3;
+}
+
+@media (max-width: 1390px) {
+  body {
+    align-items: unset;
+  }
+}
+
+/*Mise en place grille*/
+
+.wrapper {
+  position: absolute;
+  display: flex;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%);
+  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s;
+}
+
+.grid {
+  margin-top: 2.051282051282051vh;
+  margin-bottom: 2.051282051282051vh;
+  display: grid;
+  grid-template-columns: repeat(12, 75px);
+  grid-gap: 0.8333333333333334vw;
+}
+
+@media (max-width: 1390px) {
+  .grid {
+    grid-template-columns: repeat(8, 62px);
+  }
+}
+
+p {
+  font-family: "QuicksandR";
+  font-size: 21px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #303030;
+}
