@@ -67,6 +67,7 @@
 @media (max-width: 710px) {
   .mfp-content p {
     margin: 10px;
+    font-size: 13px;
   }
 }
 
