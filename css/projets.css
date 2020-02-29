@@ -586,3 +586,13 @@ a {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
+
+.pdf {
+  width: 75%;
+  height: 100vh;
+}
+
+.pdf2 {
+  width: 75%;
+  height: 75vh;
+}
