@@ -203,6 +203,7 @@ p {
   grid-row: 1;
   margin-top: 60px;
   margin-bottom: 120px;
+  align-self: center;
   top: 60px;
 }
 
@@ -220,6 +221,7 @@ p {
   .maintitle {
     grid-column: 1 / 6;
     width: 345px;
+    margin-bottom: 60px;
   }
 }
 
@@ -523,6 +525,7 @@ iframe {
   border: none;
   margin: auto;
   margin-top: 2%;
+  margin-bottom: 5%;
   width: 854px;
   height: 480px;
   box-shadow: 10px 10px 10px #aeaec070, -10px -10px 10px #ffffff;
@@ -532,7 +535,7 @@ iframe {
   iframe {
     width: 640px;
     height: 360px;
-    margin-top: 5%;
+    margin-top: 0;
   }
 }
 
@@ -540,8 +543,6 @@ iframe {
   iframe {
     width: 256px;
     height: 144px;
-    margin-top: 15%;
-    margin-bottom: 5%;
   }
 }
 
