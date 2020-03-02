@@ -157,6 +157,7 @@ body {
 }
 
 .qui {
+  width: 100%;
   grid-column: 2 / 6;
   grid-row: 1;
   margin: 0;
@@ -170,14 +171,12 @@ body {
     grid-row: 1;
     align-self: center;
     margin-bottom: 100px;
-    width: 335px;
   }
 }
 
 @media (max-width: 780px) {
   .qui {
     grid-column: 1 / 6;
-    width: 335px;
     margin-bottom: 65px;
   }
 }
@@ -379,4 +378,16 @@ ul {
     margin: 0;
     margin-bottom: 30px;
   }
+}
+
+.logovg {
+  position: fixed;
+  bottom: 2.7vh;
+  right: 2vw;
+  height: 50px;
+  z-index: 20;
+  border-radius: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: none;
 }

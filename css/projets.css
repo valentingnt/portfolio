@@ -213,7 +213,7 @@ p {
     grid-row: -12;
     align-self: center;
     margin-bottom: 100px;
-    width: 345px;
+    width: 100%;
   }
 }
 
@@ -222,6 +222,15 @@ p {
     grid-column: 1 / 6;
     grid-row: -11;
     width: 200px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 710px) {
+  .titre {
+    grid-column: 1 / 6;
+    grid-row: -11;
+    width: 100%;
     margin-bottom: 60px;
   }
 }
@@ -597,4 +606,16 @@ a {
 .pdf2 {
   width: 75%;
   height: 75vh;
+}
+
+.logovg {
+  position: fixed;
+  bottom: 2.7vh;
+  right: 2vw;
+  height: 50px;
+  z-index: 20;
+  border-radius: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: none;
 }
